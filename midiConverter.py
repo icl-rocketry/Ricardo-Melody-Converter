@@ -4,7 +4,7 @@ from mido import tick2second
 
 midiFile = MidiFile("TouchTheSky8bit.midi", clip = True)
 name = "TouchTheSky"
-SongFileHeader = '''#include "melodyClass.h" \n#include "melodyLibrary.h" \n#include "pitches.h \n\n// Generated Song File \n\n'''
+SongFileHeader = '''#include "melodyClass.h" \n#include "melodyLibrary.h" \n#include "pitches.h" \n\n// Generated Song File \n\n'''
 
 notes = []
 duration = []
